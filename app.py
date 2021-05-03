@@ -59,8 +59,7 @@ plt.xlabel('Date')
 plt.ylabel('Power_kW')
 fig.add_subplot(122)
 sb.boxplot(x=df['Power_kW'])
-
- 
+])
 
 
 if __name__ == '__main__':
